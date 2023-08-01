@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "AHT21B")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/Schematic/AHT21B.kicad_sym")(options "")(descr ""))
+  (lib (name "UMW30N06")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/Schematic/UMW30N06.kicad_sym")(options "")(descr ""))
+)
