@@ -883,6 +883,7 @@
 
   (bus_alias "USB" (members "USB_D+" "USB_D-"))
   (bus_alias "I2C" (members "SDA" "SCL"))
+
   (junction (at 71.12 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 21475c48-09bc-4af8-aa01-71df15d9f18b)
   )
