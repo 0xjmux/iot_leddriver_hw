@@ -62,8 +62,6 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|62582500|68224500|59828060-72ff-459b-99f6-503eba45e232|5845eb7b-633b-4e9f-b770-30a5d3dcf0ed",
-        "copper_edge_clearance|75282500|68224500|59828060-72ff-459b-99f6-503eba45e232|4b5f970b-3565-45a6-a1b8-7d3f8c42e29b",
         "footprint_type_mismatch|109900076|77750038|ed7747e1-ee58-4055-a825-46f192ca668e|00000000-0000-0000-0000-000000000000",
         "hole_clearance|108120053|74850165|4d7db517-692c-4c28-b0fd-35cba4835379|3949afbc-ba53-466d-8960-1a2f51c0a83b",
         "hole_clearance|108120053|75050013|4d7db517-692c-4c28-b0fd-35cba4835379|2ca59d88-6aa4-4dff-8eed-c1982affcb7e",

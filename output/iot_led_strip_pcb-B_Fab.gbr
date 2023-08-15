@@ -1,0 +1,14 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.6-1.fc37*%
+%TF.CreationDate,2023-08-13T21:26:52-07:00*%
+%TF.ProjectId,iot_led_strip_pcb,696f745f-6c65-4645-9f73-747269705f70,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,AssemblyDrawing,Bot*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.6-1.fc37) date 2023-08-13 21:26:52*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*

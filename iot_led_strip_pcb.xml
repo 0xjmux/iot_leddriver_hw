@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>/home/jmux/Documents/ae.projects/iot_led_driver/iot_led_strip_pcb/iot_led_strip_pcb.kicad_sch</source>
-    <date>Tue 01 Aug 2023 10:57:08 PM PDT</date>
-    <tool>Eeschema 6.0.11-3.fc37</tool>
+    <date>Sun 13 Aug 2023 09:37:26 PM PDT</date>
+    <tool>Eeschema 7.0.6-1.fc37</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>IoT LED Strip Driver</title>
         <company/>
-        <rev>v0.9</rev>
-        <date>2023-05-03</date>
+        <rev>v1.0</rev>
+        <date>2023-08-13</date>
         <source>iot_led_strip_pcb.kicad_sch</source>
-        <comment number="1" value="A modular, internet connected driver for 5050 style LED strips"/>
+        <comment number="1" value="A modular, internet connected LED strip driver"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -26,10 +26,10 @@
       <title_block>
         <title>IoT LED Strip Driver</title>
         <company/>
-        <rev>v0.9</rev>
-        <date>2023-05-03</date>
+        <rev>v1.0</rev>
+        <date>2023-08-13</date>
         <source>Power_and_board.kicad_sch</source>
-        <comment number="1" value="A modular, internet connected driver for 5050 style LED strips"/>
+        <comment number="1" value="A modular, internet connected LED strip driver"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -44,10 +44,10 @@
       <title_block>
         <title>IoT LED Strip Driver</title>
         <company/>
-        <rev>v0.9</rev>
-        <date>2023-05-03</date>
+        <rev>v1.0</rev>
+        <date>2023-08-13</date>
         <source>LED_driver.kicad_sch</source>
-        <comment number="1" value="A modular, internet connected driver for 5050 style LED strips"/>
+        <comment number="1" value="A modular, internet connected LED strip driver"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -62,10 +62,10 @@
       <title_block>
         <title>IoT LED Strip Driver</title>
         <company/>
-        <rev>v0.9</rev>
-        <date>2023-05-03</date>
+        <rev>v1.0</rev>
+        <date>2023-08-13</date>
         <source>USB_to_Serial.kicad_sch</source>
-        <comment number="1" value="The hardware that leds the ESP8266 act as a USB device"/>
+        <comment number="1" value="A modular, internet connected LED strip driver"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -91,6 +91,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4c715349-450b-4407-84b6-827be4302ecc</tstamps>
     </comp>
@@ -106,6 +108,8 @@
       <property name="LCSC" value="C84256"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2c93276f-71e6-45d5-bbca-8fb3e7fdd6f4</tstamps>
     </comp>
@@ -121,6 +125,8 @@
       <property name="LCSC" value="C84256"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fa5e6c6e-5078-429e-8b40-255172873e21</tstamps>
     </comp>
@@ -137,12 +143,13 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/USB-Connectors_G-Switch-GT-USB-7010ASV_C2988369.html"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="C2988369"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>86b891c6-6558-421f-b8fb-bb806b6729fd</tstamps>
     </comp>
     <comp ref="J2">
-      <value>DC-470-2_1GP</value>
-      <footprint>footprint:DC-IN-TH_DC-470-2.1GP</footprint>
+      <value>12V PWR</value>
+      <footprint>Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal</footprint>
       <datasheet>https://so.szlcsc.com/global.html?c=&amp;k=C194407</datasheet>
       <fields>
         <field name="LCSC">C194407</field>
@@ -153,12 +160,13 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/AC-span-style-background-color-ff0-DC-span-span-style-background-color-ff0-Power-span-Connectors_GANGYUAN-DC-470-2-1GP_C194407.html"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="C194407"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b0ed0a28-db7e-4ce4-8c56-016c1a1f2143</tstamps>
     </comp>
     <comp ref="J3">
-      <value>DC-470-2_1GP</value>
-      <footprint>footprint:DC-IN-TH_DC-470-2.1GP</footprint>
+      <value>5V PWR</value>
+      <footprint>Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal</footprint>
       <datasheet>https://so.szlcsc.com/global.html?c=&amp;k=C194407</datasheet>
       <fields>
         <field name="LCSC">C194407</field>
@@ -169,8 +177,9 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/AC-span-style-background-color-ff0-DC-span-span-style-background-color-ff0-Power-span-Connectors_GANGYUAN-DC-470-2-1GP_C194407.html"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="C194407"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7f54dcb4-aec5-44a5-a974-c69d6440338b</tstamps>
+      <tstamps>21bb27b5-879f-4125-bc5f-be16c4ea1612</tstamps>
     </comp>
     <comp ref="R3">
       <value>5.1k</value>
@@ -184,6 +193,8 @@
       <property name="LCSC" value="C27834"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c3c2a799-1c48-42ee-9a79-b96e871ea809</tstamps>
     </comp>
@@ -199,6 +210,8 @@
       <property name="LCSC" value="C27834"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>417e5503-c32a-4c99-9233-b71129f81073</tstamps>
     </comp>
@@ -214,6 +227,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b328f076-7785-4036-ad1d-fe2519b87968</tstamps>
     </comp>
@@ -229,6 +244,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>db26252b-f965-4431-80d2-90b13b4bb2cf</tstamps>
     </comp>
@@ -244,6 +261,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a2dced31-6ef9-4422-b06d-cc06a75b2c5c</tstamps>
     </comp>
@@ -259,6 +278,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dbb0bd7d-db4e-4d59-974a-ecc3c89b34ce</tstamps>
     </comp>
@@ -274,6 +295,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9f13789b-ba22-44f6-aff1-4699ff7b1bcb</tstamps>
     </comp>
@@ -289,6 +312,8 @@
       <property name="LCSC" value="C17710"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>798a44bf-38e7-4373-83c0-74342f5d0192</tstamps>
     </comp>
@@ -304,6 +329,8 @@
       <property name="LCSC" value="C17408"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a5c2ff7b-067c-4276-927f-c5149a222b02</tstamps>
     </comp>
@@ -319,6 +346,7 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="C5117870"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b61662ee-eb41-46ac-bb4f-e32c5e81c17d</tstamps>
     </comp>
@@ -334,6 +362,7 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="C5117870"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>16a6dd1b-4081-4207-9f07-8d6fdc26117e</tstamps>
     </comp>
@@ -350,6 +379,8 @@
       <property name="LCSC" value="C89297"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="iot_led_strip_pcb.kicad_sch"/>
+      <property name="ki_description" value="802.11 b/g/n Wi-Fi Module"/>
+      <property name="ki_keywords" value="802.11 Wi-Fi"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f56abde9-1634-4bd5-bcdb-c53352522da2</tstamps>
     </comp>
@@ -366,6 +397,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>6e576c58-e2ba-4da3-81fc-27c715500160</tstamps>
     </comp>
@@ -382,6 +415,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>e3fda1d4-f53e-424b-a3de-3b5777da4985</tstamps>
     </comp>
@@ -397,6 +432,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>a76ce1f7-2ee6-4ff4-98ae-e0007a68b53d</tstamps>
     </comp>
@@ -413,6 +450,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>acb537a6-93dc-47e6-9bb1-205c6b5051c5</tstamps>
     </comp>
@@ -429,6 +468,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>2341f93a-3baf-4b6a-9900-494338d40fd9</tstamps>
     </comp>
@@ -444,6 +485,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>db4dd906-0afa-4a96-876a-4b194af0a9de</tstamps>
     </comp>
@@ -460,8 +503,46 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>7fcfbf02-0a38-4562-a02a-b1a348a971c5</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
+      <tstamps>72ff217e-fbe0-4157-b76a-ebdf9a928d02</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
+      <tstamps>c71d2320-1729-42a5-a64e-cb4497c9fd0b</tstamps>
     </comp>
     <comp ref="D4">
       <value>SMF18A</value>
@@ -474,6 +555,8 @@
       <property name="LCSC" value="C169433"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, SMF"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>f500a57e-67c8-47f2-9f7b-4c551ed55178</tstamps>
     </comp>
@@ -488,6 +571,8 @@
       <property name="LCSC" value="C1972946"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>8143e45b-a3ec-4f03-a336-58b4bc4ed043</tstamps>
     </comp>
@@ -502,8 +587,40 @@
       <property name="LCSC" value="C1972946"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>1a51f693-0e39-4c80-94cb-08b49955c3a9</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C191023</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C191023"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
+      <tstamps>b316b73f-30bb-4fe1-bc12-18f864515435</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C191023</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C191023"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
+      <tstamps>597ea89b-b6b3-4797-8334-9523b016cbc3</tstamps>
     </comp>
     <comp ref="U4">
       <value>AMS1117-5.0</value>
@@ -518,6 +635,8 @@
       <property name="LCSC" value="C6187"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>4476a56a-6fff-4b49-817d-1b2cb2888a89</tstamps>
     </comp>
@@ -534,6 +653,8 @@
       <property name="LCSC" value="C6186"/>
       <property name="Sheetname" value="Power_and_board"/>
       <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <sheetpath names="/Power_and_board/" tstamps="/cfe13250-7fa5-4f24-964e-9463793dd38d/"/>
       <tstamps>5867e97b-018a-41ac-b2f9-0ac4ccb944e4</tstamps>
     </comp>
@@ -550,6 +671,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>47b7c3d3-1a3b-4278-8695-ca3919291450</tstamps>
     </comp>
@@ -566,6 +689,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>257f0103-e877-46ab-80a1-f5b2ac0e58f3</tstamps>
     </comp>
@@ -582,17 +707,10 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>29cd11a8-1cfa-4e08-9c91-4a5a1f06f204</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>Conn_01x03</value>
-      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm_Relief</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="LED_driver"/>
-      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
-      <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
-      <tstamps>3d7fcf20-6c7d-43bd-a438-f7c383125b9b</tstamps>
     </comp>
     <comp ref="Q3">
       <value>UMW30N06</value>
@@ -605,6 +723,7 @@
       <property name="LCSC" value="C369599"/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>4b77ded6-7fa7-456e-b9d8-70b1bb874437</tstamps>
     </comp>
@@ -619,6 +738,7 @@
       <property name="LCSC" value="C369599"/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>40e8144f-535b-4a7f-8631-f105c232e3f5</tstamps>
     </comp>
@@ -633,8 +753,54 @@
       <property name="LCSC" value="C369599"/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>7bb3c307-60d9-4134-ac2d-f382cc82bed4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED_driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
+      <tstamps>3204e96a-4a9c-442f-9159-e7ee146c1075</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED_driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
+      <tstamps>047b14ff-99a5-4fb7-84e5-38bc9af1e358</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED_driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
+      <tstamps>f45342f3-5cb6-49af-bdae-bf663e52f589</tstamps>
     </comp>
     <comp ref="U6">
       <value>MCP1416</value>
@@ -647,6 +813,8 @@
       <property name="LCSC" value="C83775 "/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>832c6c14-3e1b-4b2a-98b5-2ff4034b1ab5</tstamps>
     </comp>
@@ -661,6 +829,8 @@
       <property name="LCSC" value="C83775 "/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>7244b298-8d45-46af-81b9-0deb544e1aaf</tstamps>
     </comp>
@@ -675,6 +845,8 @@
       <property name="LCSC" value="C83775 "/>
       <property name="Sheetname" value="LED_driver"/>
       <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
       <sheetpath names="/LED_driver/" tstamps="/af18acc8-a8c3-4e1e-8a57-49b565af3262/"/>
       <tstamps>64c9354b-b0e5-4696-994f-9a536470860c</tstamps>
     </comp>
@@ -690,6 +862,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>480a1385-c5f7-41c0-9ed3-b24108f4dad9</tstamps>
     </comp>
@@ -705,6 +879,8 @@
       <property name="LCSC" value="C1804"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>e101f82f-741b-449c-8ccf-8c0bbb28b594</tstamps>
     </comp>
@@ -720,12 +896,14 @@
       <property name="LCSC" value="C1804"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>ddb73cf5-6e96-4717-bc73-94416c88f915</tstamps>
     </comp>
     <comp ref="Q1">
       <value>S8050_C105433</value>
-      <footprint>footprint:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
       <datasheet>https://item.szlcsc.com/14454.html</datasheet>
       <fields>
         <field name="LCSC">C105433</field>
@@ -736,12 +914,13 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/Bipolar-Transistors-BJT_Jiangsu-Changjing-Electronics-Technology-Co-Ltd-S8050_C105433.html"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_keywords" value="C105433"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>9d58f4bb-76e9-4131-8969-7ff5e6bfce7f</tstamps>
     </comp>
     <comp ref="Q2">
       <value>S8050_C105433</value>
-      <footprint>footprint:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
       <datasheet>https://item.szlcsc.com/14454.html</datasheet>
       <fields>
         <field name="LCSC">C105433</field>
@@ -752,6 +931,7 @@
       <property name="Vendor" value="https://www.lcsc.com/product-detail/Bipolar-Transistors-BJT_Jiangsu-Changjing-Electronics-Technology-Co-Ltd-S8050_C105433.html"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_keywords" value="C105433"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>1fe9009d-e34a-44f7-adc0-e8b53a94fb8d</tstamps>
     </comp>
@@ -767,6 +947,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>3eb121a1-9661-4225-a823-127bab3e4d81</tstamps>
     </comp>
@@ -782,6 +964,8 @@
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>f9663d41-db49-4be4-91c6-d3fe9e89c87b</tstamps>
     </comp>
@@ -797,6 +981,8 @@
       <property name="LCSC" value="C17710"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>48902571-f9bc-4933-a652-ddba805c9b3d</tstamps>
     </comp>
@@ -812,6 +998,8 @@
       <property name="LCSC" value="C17710"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>c6407dec-560b-4228-a5ec-75a90f56c4ad</tstamps>
     </comp>
@@ -828,6 +1016,8 @@
       <property name="LCSC" value="C14267"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="USB serial converter, UART, SOIC-16"/>
+      <property name="ki_keywords" value="USB UART Serial Converter Interface"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>fbb2f6b3-d93f-40cd-9792-ea5d412d2217</tstamps>
     </comp>
@@ -843,6 +1033,8 @@
       <property name="LCSC" value="C9002"/>
       <property name="Sheetname" value="USB_to_Serial"/>
       <property name="Sheetfile" value="USB_to_Serial.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <sheetpath names="/USB_to_Serial/" tstamps="/0a0123f5-052f-49b0-ba0d-849f7099c0bf/"/>
       <tstamps>a333cdcf-eced-4362-bbae-c796c27923b4</tstamps>
     </comp>
@@ -913,23 +1105,6 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x04">
       <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -980,6 +1155,25 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
@@ -1364,12 +1558,16 @@
     <library logical="UMW30N06">
       <uri>/home/jmux/Documents/ae.projects/iot_led_driver/iot_led_strip_pcb/JLC2KiCad_lib/Schematic/UMW30N06.kicad_sym</uri>
     </library>
+    <library logical="gt-usb_lib">
+      <uri>/home/jmux/Documents/ae.projects/iot_led_driver/iot_led_strip_pcb/JLC2KiCad_lib/Schematic/gt-usb_lib.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="+3.3V">
+    <net code="2" name="+3.3V">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
@@ -1378,17 +1576,19 @@
       <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U5" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
-    <net code="2" name="+5V">
+    <net code="3" name="+5V">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
       <node ref="U4" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U5" pin="3" pinfunction="VI" pintype="power_in"/>
@@ -1396,21 +1596,20 @@
       <node ref="U7" pin="2" pinfunction="Vdd" pintype="power_in"/>
       <node ref="U8" pin="2" pinfunction="Vdd" pintype="power_in"/>
     </net>
-    <net code="3" name="/12VDC">
+    <net code="4" name="/12VDC">
+      <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="4" name="/GPIO0">
+    <net code="5" name="/GPIO0">
       <node ref="Q2" pin="3" pinfunction="3" pintype="input"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="U3" pin="18" pinfunction="GPIO0" pintype="bidirectional"/>
-    </net>
-    <net code="6" name="/LED_driver/Din">
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="7" name="/LED_driver/LED_B">
       <node ref="U3" pin="5" pinfunction="GPIO14" pintype="bidirectional"/>
@@ -1439,36 +1638,40 @@
     <net code="14" name="/SDA">
       <node ref="U3" pin="19" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/USB_D+">
-      <node ref="J1" pin="A6" pinfunction="DP1" pintype="unspecified"/>
-      <node ref="J1" pin="B6" pinfunction="DP2" pintype="unspecified"/>
-    </net>
-    <net code="16" name="/USB_D-">
-      <node ref="J1" pin="A7" pinfunction="DN1" pintype="unspecified"/>
-      <node ref="J1" pin="B7" pinfunction="DN2" pintype="unspecified"/>
-    </net>
-    <net code="17" name="/USB_to_Serial/DTR">
+    <net code="15" name="/USB_to_Serial/DTR">
       <node ref="Q2" pin="2" pinfunction="2" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="~{DTR}" pintype="output"/>
     </net>
-    <net code="18" name="/USB_to_Serial/RTS">
+    <net code="16" name="/USB_to_Serial/RTS">
       <node ref="Q1" pin="2" pinfunction="2" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="~{RTS}" pintype="output"/>
     </net>
-    <net code="19" name="/USB_to_Serial/RX">
+    <net code="17" name="/USB_to_Serial/RX">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="GPIO3/RXD" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/USB_to_Serial/TX">
+    <net code="18" name="/USB_to_Serial/RXD">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="19" name="/USB_to_Serial/TX">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U3" pin="22" pinfunction="GPIO1/TXD" pintype="bidirectional"/>
     </net>
+    <net code="20" name="/USB_to_Serial/TXD">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
     <net code="21" name="/USB_to_Serial/USB_D+">
+      <node ref="J1" pin="A6" pinfunction="DP1" pintype="unspecified"/>
+      <node ref="J1" pin="B6" pinfunction="DP2" pintype="unspecified"/>
       <node ref="U1" pin="5" pinfunction="UD+" pintype="bidirectional"/>
     </net>
     <net code="22" name="/USB_to_Serial/USB_D-">
+      <node ref="J1" pin="A7" pinfunction="DN1" pintype="unspecified"/>
+      <node ref="J1" pin="B7" pinfunction="DN2" pintype="unspecified"/>
       <node ref="U1" pin="6" pinfunction="UD-" pintype="bidirectional"/>
     </net>
     <net code="23" name="/USB_to_Serial/X0">
@@ -1481,23 +1684,25 @@
       <node ref="U1" pin="7" pinfunction="XI" pintype="input"/>
       <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="28" name="/~{RST}">
+    <net code="29" name="/~{RST}">
       <node ref="Q1" pin="3" pinfunction="3" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="U3" pin="1" pinfunction="~{RST}" pintype="input"/>
     </net>
-    <net code="29" name="EN">
+    <net code="30" name="EN">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="30" name="Earth">
+    <net code="31" name="Earth">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
@@ -1521,7 +1726,6 @@
       <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="J3" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="J3" pin="3" pinfunction="3" pintype="unspecified"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="S" pintype="unspecified"/>
       <node ref="Q4" pin="3" pinfunction="S" pintype="unspecified"/>
       <node ref="Q5" pin="3" pinfunction="S" pintype="unspecified"/>
@@ -1540,119 +1744,123 @@
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="31" name="GPIO2">
+    <net code="32" name="GPIO2">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="32" name="GPIO15">
+    <net code="33" name="GPIO15">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="33" name="Net-(D1-Pad2)">
+    <net code="34" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(D3-Pad2)">
+    <net code="35" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(J1-PadA5)">
+    <net code="36" name="Net-(J1-CC1)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="unspecified"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(J1-PadB5)">
+    <net code="37" name="Net-(J1-CC2)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="unspecified"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(Q1-Pad1)">
+    <net code="38" name="Net-(JP3-A)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(Q2-Pad1)">
+    <net code="40" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(Q3-Pad1)">
+    <net code="41" name="Net-(Q3-G)">
       <node ref="Q3" pin="1" pinfunction="G" pintype="unspecified"/>
-      <node ref="U6" pin="5" pinfunction="OUT" pintype="output"/>
+      <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(Q4-Pad1)">
+    <net code="42" name="Net-(Q4-G)">
       <node ref="Q4" pin="1" pinfunction="G" pintype="unspecified"/>
-      <node ref="U7" pin="5" pinfunction="OUT" pintype="output"/>
+      <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(Q5-Pad1)">
-      <node ref="Q5" pin="1" pinfunction="G" pintype="unspecified"/>
-      <node ref="U8" pin="5" pinfunction="OUT" pintype="output"/>
-    </net>
-    <net code="42" name="Net-(R8-Pad1)">
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="TXD" pintype="output"/>
-    </net>
-    <net code="43" name="Net-(R9-Pad1)">
-      <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="RXD" pintype="input"/>
-    </net>
-    <net code="44" name="Net-(R13-Pad2)">
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="U3" pin="4" pinfunction="GPIO16" pintype="bidirectional"/>
-    </net>
-    <net code="45" name="Net-(U1-Pad4)">
+    <net code="43" name="Net-(U1-V3)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V3" pintype="passive"/>
     </net>
-    <net code="46" name="VBUS">
+    <net code="44" name="Net-(U3-GPIO16)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(U6-OUT)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="46" name="Net-(U7-OUT)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="47" name="Net-(U8-OUT)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="48" name="VBUS">
       <node ref="J1" pin="A4B9" pinfunction="VBUS" pintype="unspecified"/>
       <node ref="J1" pin="B4A9" pinfunction="VBUS" pintype="unspecified"/>
     </net>
-    <net code="47" name="unconnected-(J1-PadA8)">
+    <net code="49" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(J1-PadB8)">
+    <net code="50" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="unspecified+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U1-Pad9)">
-      <node ref="U1" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
-    </net>
-    <net code="50" name="unconnected-(U1-Pad10)">
-      <node ref="U1" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
-    </net>
-    <net code="51" name="unconnected-(U1-Pad11)">
-      <node ref="U1" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
-    </net>
-    <net code="52" name="unconnected-(U1-Pad12)">
-      <node ref="U1" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
-    </net>
-    <net code="53" name="unconnected-(U1-Pad15)">
+    <net code="51" name="unconnected-(U1-R232-Pad15)">
       <node ref="U1" pin="15" pinfunction="R232" pintype="input+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U3-Pad2)">
+    <net code="52" name="unconnected-(U1-~{CTS}-Pad9)">
+      <node ref="U1" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-~{DCD}-Pad12)">
+      <node ref="U1" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-~{DSR}-Pad10)">
+      <node ref="U1" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-~{RI}-Pad11)">
+      <node ref="U1" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U3-ADC-Pad2)">
       <node ref="U3" pin="2" pinfunction="ADC" pintype="input+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U3-Pad9)">
+    <net code="57" name="unconnected-(U3-CS0-Pad9)">
       <node ref="U3" pin="9" pinfunction="CS0" pintype="input+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U3-Pad10)">
-      <node ref="U3" pin="10" pinfunction="MISO" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="57" name="unconnected-(U3-Pad11)">
+    <net code="58" name="unconnected-(U3-GPIO9-Pad11)">
       <node ref="U3" pin="11" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U3-Pad12)">
+    <net code="59" name="unconnected-(U3-GPIO10-Pad12)">
       <node ref="U3" pin="12" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U3-Pad13)">
+    <net code="60" name="unconnected-(U3-MISO-Pad10)">
+      <node ref="U3" pin="10" pinfunction="MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-MOSI-Pad13)">
       <node ref="U3" pin="13" pinfunction="MOSI" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U3-Pad14)">
+    <net code="62" name="unconnected-(U3-SCLK-Pad14)">
       <node ref="U3" pin="14" pinfunction="SCLK" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U6-Pad1)">
+    <net code="63" name="unconnected-(U6-NC-Pad1)">
       <node ref="U6" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U7-Pad1)">
+    <net code="64" name="unconnected-(U7-NC-Pad1)">
       <node ref="U7" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="63" name="unconnected-(U8-Pad1)">
+    <net code="65" name="unconnected-(U8-NC-Pad1)">
       <node ref="U8" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
