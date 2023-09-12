@@ -1,1 +1,11 @@
 iot_led_strip_pcb-backups/
+fetchComponent.py
+
+# kicad 
+*-bak
+*-backups
+*-cache*
+*-bak*
+_autosave*
+\#auto_saved_files\#
+*.lck
