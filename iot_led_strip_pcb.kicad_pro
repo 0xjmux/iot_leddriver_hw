@@ -555,10 +555,6 @@
     [
       "af18acc8-a8c3-4e1e-8a57-49b565af3262",
       "LED_driver"
-    ],
-    [
-      "0a0123f5-052f-49b0-ba0d-849f7099c0bf",
-      "USB_to_Serial"
     ]
   ],
   "text_variables": {}
