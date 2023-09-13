@@ -1,6 +1,7 @@
 # IoT LED Strip Driver
 
 v1: An IoT enabled LED strip driver using ESP8266 capable of using both WS2812B (Neopixel) and standard 5050 12V LED strips. Goal is to integrate with the spotify API to allow color changes in reaction to music. 
+v2: ESP32 WS2812B LED Strip Driver, using the spotify API to sync and pulse to music. Much more involved, ESP32 chosen because need for more capable hardware anticipated. 
 
 ## TODO 8/9
 * [ ] Revise via sizes in design for compliance with JLC manufacturability requirements
@@ -19,7 +20,7 @@ v1: An IoT enabled LED strip driver using ESP8266 capable of using both WS2812B 
 
 
 ### Photos
-> [!INFO] 
+> [!NOTE] 
 > These photos are of the v1 board! V2 is going to look different. 
 ![PCB Render Front](files/PCB_v0.9.1_render_F.png)
 ![PCB Render Back](files/PCB_v0.9.1_render_B.png)
