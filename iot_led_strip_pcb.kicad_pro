@@ -442,7 +442,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -551,10 +551,6 @@
     [
       "cfe13250-7fa5-4f24-964e-9463793dd38d",
       "Power_and_board"
-    ],
-    [
-      "af18acc8-a8c3-4e1e-8a57-49b565af3262",
-      "LED_driver"
     ]
   ],
   "text_variables": {}

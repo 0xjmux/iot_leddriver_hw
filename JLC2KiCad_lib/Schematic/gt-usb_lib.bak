@@ -47,7 +47,7 @@
         (name "GND" (effects (font (size 1 1))))
         (number "A1B12" (effects (font (size 1 1))))
       )
-      (pin passive line (at -12.7 12.7 0) (length 2.54)
+      (pin power_out line (at -12.7 12.7 0) (length 2.54)
         (name "VBUS" (effects (font (size 1 1))))
         (number "A4B9" (effects (font (size 1 1))))
       )
