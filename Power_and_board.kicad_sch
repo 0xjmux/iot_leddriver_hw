@@ -7,7 +7,7 @@
   (title_block
     (title "Spotify Reactive IoT LED Strip Driver")
     (date "2023-08-13")
-    (rev "v1.8-a")
+    (rev "v1.9.1-a")
     (comment 2 "to the currently playing song on spotify")
     (comment 3 "A modular, internet connected LED strip driver that reacts ")
   )
@@ -635,9 +635,6 @@
   (junction (at 124.46 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 18d6769c-4694-4001-9b50-f04203cb2f1e)
   )
-  (junction (at 124.46 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 2c40ed57-88ff-4ade-8f50-a3d0d6c6d214)
-  )
   (junction (at 140.335 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 3c7d3337-3cb6-4c6d-8873-b71527fa3aea)
   )
@@ -697,10 +694,6 @@
   (wire (pts (xy 140.335 100.33) (xy 147.32 100.33))
     (stroke (width 0) (type default))
     (uuid 04341c41-cdde-4bba-852d-53edfebe3ea4)
-  )
-  (wire (pts (xy 124.46 70.485) (xy 124.46 86.36))
-    (stroke (width 0) (type default))
-    (uuid 0faa575e-a229-4b04-a0b6-adf6729b2bff)
   )
   (wire (pts (xy 189.865 100.33) (xy 192.405 100.33))
     (stroke (width 0) (type default))
@@ -849,11 +842,6 @@
     (uuid b1c2fc71-73eb-4f01-b01f-dc599829a28e)
   )
 
-  (label "VDD_5V" (at 109.855 100.33 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b411a89c-2286-415f-bee7-0183eb0b4b2d)
-  )
-
   (hierarchical_label "5VDC IN" (shape input) (at 83.82 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 00bf5222-aded-4e59-a212-94d5b7639e4d)
@@ -861,10 +849,6 @@
   (hierarchical_label "VBUS" (shape input) (at 140.335 70.485 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 244deb17-c67d-44e8-a54b-084a2f31b0ce)
-  )
-  (hierarchical_label "5V" (shape input) (at 124.46 70.485 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b64dfeaf-c8e4-41f1-8168-09243366fb8a)
   )
   (hierarchical_label "3.3V" (shape input) (at 201.295 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -905,7 +889,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 133.35 86.36 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 0e6297b7-1a45-44ac-a423-a17063a1c356)
-    (property "Reference" "JP1" (at 133.35 84.455 0)
+    (property "Reference" "JP4" (at 133.35 84.455 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Bridged" (at 133.35 83.185 0)
@@ -922,7 +906,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "JP1") (unit 1)
+          (reference "JP4") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "JP1") (unit 1)
@@ -934,7 +918,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 140.335 184.15 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12e93c8e-f16c-468b-b355-8fdc97c399ef)
-    (property "Reference" "FID2" (at 143.51 182.8799 0)
+    (property "Reference" "FID3" (at 143.51 182.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 143.51 185.4199 0)
@@ -949,7 +933,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "FID2") (unit 1)
+          (reference "FID3") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "FID2") (unit 1)
@@ -1017,7 +1001,7 @@
   (symbol (lib_id "Device:C") (at 192.405 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36d8c403-0378-485b-a001-6917352d162b)
-    (property "Reference" "C9" (at 192.405 102.235 0)
+    (property "Reference" "C5" (at 192.405 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 192.405 106.045 0)
@@ -1043,7 +1027,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "C9") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "C11") (unit 1)
@@ -1055,7 +1039,7 @@
   (symbol (lib_id "Device:C") (at 147.32 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 490cc665-6b3f-4edc-a66f-9a4fdec7e936)
-    (property "Reference" "C7" (at 147.32 102.235 0)
+    (property "Reference" "C3" (at 147.32 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 147.32 106.045 0)
@@ -1081,7 +1065,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "C7") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "C9") (unit 1)
@@ -1093,7 +1077,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 153.035 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 507acf10-183a-4522-a742-bdfd4335dcd5)
-    (property "Reference" "TP3" (at 151.765 94.615 0)
+    (property "Reference" "TP1" (at 151.765 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5V" (at 151.765 92.71 0)
@@ -1112,7 +1096,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "TP3") (unit 1)
+          (reference "TP1") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "TP6") (unit 1)
@@ -1248,7 +1232,7 @@
   (symbol (lib_id "Device:C") (at 140.335 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75b862fc-b85f-4c09-94d6-20ba0573c549)
-    (property "Reference" "C6" (at 140.335 102.235 0)
+    (property "Reference" "C2" (at 140.335 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 140.335 106.045 0)
@@ -1274,7 +1258,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "C8") (unit 1)
@@ -1286,7 +1270,7 @@
   (symbol (lib_id "Diode:SMF5V0A") (at 102.235 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ee1ace1-6591-4bcf-a927-6cf7b414a3cf)
-    (property "Reference" "D4" (at 104.775 102.8699 90)
+    (property "Reference" "D1" (at 104.775 102.8699 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMF5V0A" (at 104.775 105.4099 90)
@@ -1306,7 +1290,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "D6") (unit 1)
@@ -1349,7 +1333,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 140.335 177.8 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ea1b76e-8fe0-48fa-aa73-0304cba00edb)
-    (property "Reference" "FID1" (at 143.51 176.5299 0)
+    (property "Reference" "FID2" (at 143.51 176.5299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 143.51 179.0699 0)
@@ -1364,7 +1348,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "FID1") (unit 1)
+          (reference "FID2") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "FID1") (unit 1)
@@ -1376,7 +1360,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 153.035 177.8 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 906c2a14-a63b-4c60-b566-46c73533a500)
-    (property "Reference" "FID3" (at 156.21 176.5299 0)
+    (property "Reference" "FID1" (at 156.21 176.5299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 156.21 179.0699 0)
@@ -1391,7 +1375,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "FID3") (unit 1)
+          (reference "FID1") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "FID3") (unit 1)
@@ -1403,7 +1387,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 130.175 166.37 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3ab10d6-fdb7-44a1-8b4d-29de9e08e89d)
-    (property "Reference" "TP5" (at 132.08 161.7979 0)
+    (property "Reference" "TP3" (at 132.08 161.7979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 132.08 164.3379 0)
@@ -1422,7 +1406,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "TP5") (unit 1)
+          (reference "TP3") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "TP8") (unit 1)
@@ -1465,7 +1449,7 @@
   (symbol (lib_id "Device:C") (at 132.715 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ada4a7aa-74fa-4359-97d8-1f462efc7d02)
-    (property "Reference" "C1" (at 132.715 102.235 0)
+    (property "Reference" "C6" (at 132.715 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 132.715 106.045 0)
@@ -1488,7 +1472,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "C1") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "C1") (unit 1)
@@ -1500,7 +1484,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 133.35 90.17 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid cc098ba6-d806-4d85-8fc5-c07c89aa834b)
-    (property "Reference" "JP2" (at 132.08 92.71 0)
+    (property "Reference" "JP3" (at 132.08 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "USB PWR" (at 144.78 88.265 0)
@@ -1517,7 +1501,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "JP2") (unit 1)
+          (reference "JP3") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "JP2") (unit 1)
@@ -1588,7 +1572,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 170.18 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e00a3d45-eb90-4356-86fa-9f8a81f224f6)
-    (property "Reference" "D5" (at 169.8625 84.455 0)
+    (property "Reference" "D3" (at 169.8625 84.455 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5819WS" (at 169.8625 86.995 0)
@@ -1608,7 +1592,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "D8") (unit 1)
@@ -1620,7 +1604,7 @@
   (symbol (lib_id "Device:C") (at 183.515 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e85cb301-1945-4f51-b17c-58537c79ccf5)
-    (property "Reference" "C8" (at 184.15 102.235 0)
+    (property "Reference" "C4" (at 184.15 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 184.15 106.045 0)
@@ -1638,12 +1622,12 @@
     (property "LCSC" "C49678" (at 183.515 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1ae2c66-ba81-479d-9618-f937f898f5a5))
-    (pin "2" (uuid 2a1fd4e8-634d-4945-bf21-77c29065df22))
+    (pin "1" (uuid e00cd7c8-74ac-404d-91cd-9cdbf9e0e4b9))
+    (pin "2" (uuid 95f93faf-9e4c-48ec-9564-be556bf0cfb5))
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "C8") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "C10") (unit 1)
@@ -1655,7 +1639,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 189.865 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid f7b5253b-d2ff-4909-8b6d-82243206881a)
-    (property "Reference" "TP4" (at 187.96 93.345 0)
+    (property "Reference" "TP2" (at 187.96 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3V" (at 187.96 95.25 0)
@@ -1674,7 +1658,7 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "TP4") (unit 1)
+          (reference "TP2") (unit 1)
         )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "TP7") (unit 1)
