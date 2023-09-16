@@ -6,7 +6,7 @@
 
   (title_block
     (title "Spotify Reactive IoT LED Strip Driver")
-    (date "2023-08-13")
+    (date "2023-09-16")
     (rev "v1.9.1-a")
     (comment 2 "to the currently playing song on spotify")
     (comment 3 "A modular, internet connected LED strip driver that reacts ")
@@ -1475,7 +1475,7 @@
     (property "Datasheet" "~" (at 132.715 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Vendor" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141.html" (at 132.715 104.14 0)
+    (property "Vendor" "https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678" (at 132.715 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C49678" (at 132.715 104.14 0)
@@ -1630,7 +1630,7 @@
     (property "Datasheet" "~" (at 183.515 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Vendor" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141.html" (at 183.515 104.14 0)
+    (property "Vendor" "https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678" (at 183.515 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C49678" (at 183.515 104.14 0)
