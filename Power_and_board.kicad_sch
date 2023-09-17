@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Spotify Reactive IoT LED Strip Driver")
-    (date "2023-09-16")
-    (rev "v1.9.1-a")
-    (comment 2 "to the currently playing song on spotify")
-    (comment 3 "A modular, internet connected LED strip driver that reacts ")
+    (title "Spotify Neopixel Visualizer")
+    (date "2023-09-17")
+    (rev "v2.0")
+    (comment 2 "the Spotify API to react to the currently playing song on Spotify")
+    (comment 3 "A modular, internet connected LED strip driver that uses ")
   )
 
   (lib_symbols
