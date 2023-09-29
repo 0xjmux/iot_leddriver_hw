@@ -1,6 +1,8 @@
 # Spotify Neopixel Visualizer
-ESP32 WS2812B LED Strip Driver, using the spotify API to sync and pulse to music. Much more involved, ESP32 chosen because need for more capable hardware anticipated. 
+ESP32 WS2812B LED Strip Driver, using the Spotify API to sync and pulse to music. Much more involved, ESP32 chosen because need for more capable hardware anticipated. 
 
+* Board firmware (in progress) can be found [in iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
+ 
 ### Features
 * ESP32 based for low-cost IoT Capability
     * Board currently uses the `ESP32-S2-MINI-2-N4`
@@ -12,7 +14,7 @@ ESP32 WS2812B LED Strip Driver, using the spotify API to sync and pulse to music
     * Entirely LCSC BOM, optimized for PCBA Assembly.
 
 ## Notes and Usage
-* Schematic(s) can be found under [files/](./files/), and should be attached to major [releases!](https://github.com/0xjmux/iot_leddriver_hw/releases)
+* Schematic(s) and other files needed for development can be found attached to major [releases!](https://github.com/0xjmux/iot_leddriver_hw/releases)
 * See [Development information here!](DEVELOPMENT-NOTES.md)
 
 ## Photos
@@ -22,6 +24,7 @@ ESP32 WS2812B LED Strip Driver, using the spotify API to sync and pulse to music
 ![v2 PCB Layout](files/PCB_v2.0_layout.png)
 
 
+---
 ### V1.0 Prototype
 V1 was never fully developed; right as the hardware was ready to be ordered the direction of the project shifted. 
 ![v1 PCB Render Front](files/PCB_v0.9.1_render_F.png)
