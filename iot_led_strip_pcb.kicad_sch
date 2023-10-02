@@ -3104,7 +3104,7 @@
     (property "Reference" "D4" (at 193.675 94.615 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "STATUS" (at 193.675 97.155 0)
+    (property "Value" "STAT" (at 193.675 97.155 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 193.675 92.075 0)
@@ -4908,7 +4908,7 @@
 
   (sheet (at 52.705 20.955) (size 26.67 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid cfe13250-7fa5-4f24-964e-9463793dd38d)
     (property "Sheetname" "Power_and_board" (at 52.705 20.2434 0)
       (effects (font (size 1.27 1.27) bold) (justify left bottom))
