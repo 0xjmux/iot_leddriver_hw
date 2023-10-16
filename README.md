@@ -16,9 +16,9 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * Entirely LCSC BOM, designed for both hand and machine assembly. Able to be assembled by JLCPCB with low-cost components.
 
 ## Notes and Usage
-* Schematic and all other files needed for development or production can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases)
-    *  This includes an interactive HTML BOM, which makes hand assembly much easier. 
-* See [Development information here!](DEVELOPMENT-NOTES.md)
+* Schematic, BOM, Gerbers, and all other files needed for development or production can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
+* This includes an interactive HTML BOM, which makes hand assembly much easier. 
+* See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md)
 
 ## Versions
 
@@ -40,6 +40,7 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 
 ---
 ### V1.0 Prototype
+* [Link to v1.0 branch](https://github.com/0xjmux/iot_leddriver_hw/tree/v1.0)
 * V1 was never fully tested; right as the first version of the hardware was ready the direction of the project shifted, and it wasn't going to have enough compute for use of the spotify API. 
 * V1.0 was an IoT enabled LED strip driver using ESP8266 capable of using both WS2812B (Neopixel) and standard 5050 12V LED strips. Goal is to integrate with the spotify API to allow color changes in reaction to music. 
 * If board will only be used in 5V (neopixel) mode, then the 3 `UMW30N06` Mosfets and 2 of the `MCP1416` mosfet drivers are not needed. Additionally, if the board will only be run in one mode then the unused 2.1mm jack does not need to be installed. 

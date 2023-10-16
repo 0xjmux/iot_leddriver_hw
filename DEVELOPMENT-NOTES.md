@@ -1,7 +1,7 @@
 ## Important Design Information
-* All information about the board needed for development can be found in releases [here.](https://github.com/0xjmux/iot_leddriver_hw/releases)
-* Microcontroller is ESP32-S2-SOLO [datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf).
-    * We're attempting to use the [ESP32-S3-WROOM-2](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf) microcontroller during development, because of its dual-core capability. 
+* All information about the board needed for development can be found in the [latest release](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
+* Current microcontroller is ESP32-S2-SOLO ([datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf))
+    * We're also attempting to use the [ESP32-S3-WROOM-2](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf) microcontroller during development, because of its dual-core capability. 
 *  A MEMS Microphone, the `SPH0641LU4H-1`, can be optionally installed in case we later want to add live sound reactivity capability ([datasheet](https://www.knowles.com/docs/default-source/default-document-library/sph0641lm4h-1-datasheet-rev-f.pdf?Status=Master&sfvrsn=217e70b1_0) ).
 
 #### Pinout
