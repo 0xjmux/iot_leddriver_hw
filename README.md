@@ -43,6 +43,6 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * V1 was never fully tested; right as the first version of the hardware was ready the direction of the project shifted, and it wasn't going to have enough compute for use of the spotify API. 
 * V1.0 was an IoT enabled LED strip driver using ESP8266 capable of using both WS2812B (Neopixel) and standard 5050 12V LED strips. Goal is to integrate with the spotify API to allow color changes in reaction to music. 
 * If board will only be used in 5V (neopixel) mode, then the 3 `UMW30N06` Mosfets and 2 of the `MCP1416` mosfet drivers are not needed. Additionally, if the board will only be run in one mode then the unused 2.1mm jack does not need to be installed. 
-![v1 PCB Render Front](files/PCB_v0.9.1_render_F.png)
-![v1 PCB Render Back](files/PCB_v0.9.1_render_B.png)
-![v1 PCB Layout](files/PCB_v0.9.1_layout.png)
+![v1 PCB Render Front](files/PCB_v1.0_render_F.png)
+![v1 PCB Render Back](files/PCB_v1.0_render_B.png)
+![v1 PCB Layout](files/PCB_v1.0_layout.png)
