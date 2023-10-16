@@ -18,7 +18,7 @@ ESP32 WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pu
 * Schematic and other files needed for development or production can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases)
 * See [Development information here!](DEVELOPMENT-NOTES.md)
 
-## Photos
+## Versions
 
 ### V2.1 - Board updates
 * Original ESP32-S2-MINI wasn't hand assembleable, so it's been replaced with an ESP32-S2-SOLO. 
