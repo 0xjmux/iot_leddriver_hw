@@ -1,4 +1,4 @@
-22977101462929320
+22980490864603062
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95046,13 +95046,6 @@ DC-IN-TH_DC-470-2.1GP footprint
 3
 3
 footprint
-Inline 5 pad breakout
-
-
-0
-5
-5
-footprint
 SENSOR-TH_AHT21B
 SENSOR-TH_AHT21B footprint
 SENSOR-TH_AHT21B footprint
@@ -95080,3 +95073,24 @@ jmux-footprints
 0
 6
 6
+jmux-footprints
+5 Pin Pad array
+
+
+0
+5
+5
+jmux-footprints
+SENSOR-TH_AHT21B
+SENSOR-TH_AHT21B footprint
+SENSOR-TH_AHT21B footprint
+0
+8
+4
+jmux-footprints
+USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+USB-C-SMD_G-SWITCH_GT-USB-7010ASV footprint
+USB-C-SMD_G-SWITCH_GT-USB-7010ASV footprint
+0
+16
+16

@@ -9,3 +9,6 @@ fetchComponent.py
 _autosave*
 \#auto_saved_files\#
 *.lck
+output/
+bom/
+
