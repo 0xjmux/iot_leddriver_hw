@@ -3130,7 +3130,7 @@
     (property "Value" "MIC_CLK_SEL" (at 172.085 33.655 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 169.545 32.385 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" (at 169.545 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 169.545 32.385 0)
