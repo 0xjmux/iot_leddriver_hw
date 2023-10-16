@@ -30,7 +30,9 @@ ESP32 WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pu
 
 
 ### V2.0 - ESP32 Based
-* Board upgraded to the `ESP32-S2-MINI-2-N4` for better compute capability, completely redesigned solely around the WS2812B. 
+* Board upgraded to the `ESP32-S2-MINI-2-N4` for better compute capability, completely redesigned solely around the WS2812B.
+* Most of the features listed above were introduced in this version.
+* Had planned on working with my friend tsnl on the firmware at this point, but life got in the way; in case I don't get to the firmwware, in v2.1 I made sure it was compatible with WLED.  
 ![v2 PCB Render Front](files/PCB_v2.0_render_F.png)
 ![v2 PCB Render Back](files/PCB_v2.0_render_B.png)
 ![v2 PCB Layout](files/PCB_v2.0_layout.png)
