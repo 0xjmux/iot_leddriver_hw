@@ -1,18 +1,19 @@
-# Spotify Neopixel Visualizer
-ESP32 WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pulse to music. 
+# Spotify Neopixel Visualizer Hardware
+ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pulse to music. 
 
 * Board firmware (in progress) can be found [in iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
-* Optionally, [WLED](https://github.com/Aircoookie/WLED) Compatible: just change the LED data pin to `GPIO21`. 
+* Optionally, compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
+* (See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for additional pinout and other information).
  
 ### Features
 * ESP32 based for low-cost IoT Capability, using ESP32-S2-SOLO. 
-* Programmable over USB C via ESP32's USB-OTG
-* Includes tag-connect JTAG header for full JTAG debug capability. 
-* Two ways to attach LED strip, including strain relief for wires connecting to LED Strip. 
-* M2 mounting holes multiple test pads broken out for debugging, and an emergency UART header on the bottom as a last resort. 
-* Included I2C Breakout, allowing addition of SSD1306 OLED if needed by user
+* Programmable over USB C
+* Includes Tag-Connect JTAG header for full JTAG debug capability. 
+* Two ways to attach LED strip, including strain relief for wires connecting to the LED Strip. 
+* M2 mounting holes, various test pads, and an emergency UART header on the bottom. 
+* Includes I2C breakout for optional addition of SSD1306 OLED.
 * MEMS Microphone can optionally be added for live sound reactivity. 
-* Entirely LCSC BOM, designed to be assembled by JLCPCB with low-cost components - but still hand assembleable. 
+* Entirely LCSC BOM, designed for both hand and machine assembly. Able to be assembled by JLCPCB with low-cost components.
 
 ## Notes and Usage
 * Schematic and all other files needed for development or production can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases)
@@ -36,7 +37,6 @@ ESP32 WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pu
 ![v2 PCB Render Front](files/PCB_v2.0_render_F.png)
 ![v2 PCB Render Back](files/PCB_v2.0_render_B.png)
 ![v2 PCB Layout](files/PCB_v2.0_layout.png)
-
 
 ---
 ### V1.0 Prototype
