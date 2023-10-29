@@ -1,6 +1,8 @@
 # Spotify Neopixel Visualizer Hardware
 ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pulse to music. 
 
+![LED Ring Gif](./files/iot_leddriver_v2.1_ledring_stable.gif)
+
 * Board firmware (in progress) can be found [in iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
 * Optionally, compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
 * (See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for additional pinout and other information).
