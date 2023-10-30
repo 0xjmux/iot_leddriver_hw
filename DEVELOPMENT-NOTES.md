@@ -17,7 +17,7 @@
 
 #### Hardware Limitations
 * Trace width and vias for power delivery from DC jack to LED Strip Power lines calculated to handle <=15A with ΔT rise of <10°C. 
-* Maximum draw of a 5M 60 LED/m WS2812B strip (all white at maximum brightness) is 12A @ 5V. Anything longer than that and you start seeing the brightness drop due to the resistance of the traecs inside the strip, so it is unlikely this design limit will be exceeded. 
+* Maximum draw of a 5M 60 LED/m WS2812B strip (all white at maximum brightness) is 12A @ 5V. Anything longer than that and you start seeing the brightness drop due to the resistance of the traces inside the strip, so it is unlikely this design limit will be exceeded. 
 
 
 #### ESP32-S2-SOLO Information

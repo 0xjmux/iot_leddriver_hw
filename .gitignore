@@ -11,4 +11,5 @@ _autosave*
 *.lck
 output/
 bom/
+production/
 

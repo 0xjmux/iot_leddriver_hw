@@ -1,14 +1,17 @@
 # Spotify Neopixel Visualizer Hardware
 ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pulse to music. 
 
-![LED Ring Gif](./files/iot_leddriver_v2.1_ledring_stable.gif)
+<p align="center">
+  <img src="./files/iot_leddriver_v2.1_ledring_stable.gif" />
+</p>
+  
 
-* Board firmware (in progress) can be found [in iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
+* Board firmware (in progress, not yet published) can be found [in iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
 * Optionally, compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
 * (See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for additional pinout and other information).
  
 ### Features
-* ESP32 based for low-cost IoT Capability, using ESP32-S2-SOLO. 
+* ESP32 based for low-cost IoT Capability, using `ESP32-S2-SOLO` (single core, cheaper) or `ESP32-S3-WROOM` (dual core). 
 * Programmable over USB C
 * Includes Tag-Connect JTAG header for full JTAG debug capability. 
 * Two ways to attach LED strip, including strain relief for wires connecting to the LED Strip. 
@@ -18,16 +21,16 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * Entirely LCSC BOM, designed for both hand and machine assembly. Able to be assembled by JLCPCB with low-cost components.
 
 ## Notes and Usage
-* Schematic, BOM, Gerbers, and all other files needed for development or production can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
+* Schematic, BOM, Gerbers, and all other files needed for development and production can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
 * This includes an interactive HTML BOM, which makes hand assembly much easier. 
 * See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md)
 
 ## Versions
 
 ### V2.1 - Board updates
-* Original ESP32-S2-MINI wasn't hand assembleable, so it's been replaced with an ESP32-S2-SOLO. 
+* Original ESP32-S2-MINI wasn't hand assemble-able, so it's been replaced with an `ESP32-S2-SOLO`. 
 * Various small upgrades, including removal of non-necessary RC components, a mini UART header, and additional 5V power lines right next to the 2.1mm jack for strips with additional power wires. 
-* The footprint and supporting components for a MEMS Microphone (SPH0641LM4H-1) added in case live sound reactivity is desired later on. 
+* The footprint and supporting components for a MEMS Microphone (`SPH0641LM4H-1`) added in case live sound reactivity is desired later on. 
 ![v2.1 PCB Render Front](files/PCB_v2.1_render_F_RayT.png)
 ![v2 PCB Render Back](files/PCB_v2.1_render_B_RayT.png)
 ![v2 PCB Layout](files/PCB_v2.1_layout.png)
