@@ -6,8 +6,8 @@
 
   (title_block
     (title "Spotify Neopixel Visualizer")
-    (date "2023-10-15")
-    (rev "v2.1")
+    (date "2023-11-05")
+    (rev "v2.2")
     (comment 2 "the Spotify API to react to the currently playing song on Spotify.")
     (comment 3 "A modular, internet connected LED strip driver that uses ")
   )
