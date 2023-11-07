@@ -8,6 +8,7 @@
     (title "Spotify Neopixel Visualizer")
     (date "2023-11-05")
     (rev "v2.2")
+    (company "iotled.jacobbokor.com")
     (comment 2 "the Spotify API to react to the currently playing song on Spotify.")
     (comment 3 "A modular, internet connected LED strip driver that uses ")
   )
@@ -4341,7 +4342,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 86.995 34.29 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b555c097-ffea-4c60-ac72-d9928818c830)
     (property "Reference" "JP2" (at 81.915 34.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
