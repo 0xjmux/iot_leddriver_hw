@@ -31,9 +31,13 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * Power trace width from USB C port increased so short lengths of strip can be driven directly from USB.
 * Traces cleaned up, PWR_LED can now be disconnected (if it's going to be deployed somewhere and the constant light is unwanted). USB_PWR jumpers removed. 
 * BOM consolidation, some notes added to schematic, documentation improvements. 
-![v2.2 PCB Render Front](files/PCB_v2.2_render_F_RayT.png)
-![v2 PCB Render Back](files/PCB_v2.2_render_B_RayT.png)
-![v2 PCB Layout](files/PCB_v2.2_layout.png)
+
+<p align="center">
+<img alt="v2.2 PCB Render Front" src="files/PCB_v2.2_render_F_RayT.png" width="400" />
+<img alt="v2.2 PCB Render Back" src="files/PCB_v2.2_render_B_RayT.png" width="400" />
+<img alt="v2.2 PCB Layout" src="files/PCB_v2.2_layout.png" width="400" />
+</p>
+
 
 ### V2.1 - Board updates
 * MCU originally selected for V2, the `ESP32-S2-MINI`, wasn't hand assemble-able; so it's been replaced with an `ESP32-S2-SOLO`. 
