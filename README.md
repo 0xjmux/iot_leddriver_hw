@@ -6,7 +6,7 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 </p>
   
 
-* Board firmware (in progress, not yet published) can be found [in iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
+* Board firmware (in progress, not yet published) will be eventually available at [iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
 * Optionally, compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
 * (See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for additional pinout and other information).
  
@@ -26,9 +26,17 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md)
 
 ## Versions
+### V2.2 - QoL and Improvements for Production
+* Mostly minor updates, to bring the board up to a "production" status. Some modifications/fixes for things found during manual assembly. 
+* Power trace width from USB C port increased so short lengths of strip can be driven directly from USB.
+* Traces cleaned up, PWR_LED can now be disconnected (if it's going to be deployed somewhere and the constant light is unwanted). USB_PWR jumpers removed. 
+* BOM consolidation, some notes added to schematic, documentation improvements. 
+![v2.2 PCB Render Front](files/PCB_v2.2_render_F_RayT.png)
+![v2 PCB Render Back](files/PCB_v2.2_render_B_RayT.png)
+![v2 PCB Layout](files/PCB_v2.2_layout.png)
 
 ### V2.1 - Board updates
-* Original ESP32-S2-MINI wasn't hand assemble-able, so it's been replaced with an `ESP32-S2-SOLO`. 
+* MCU originally selected for V2, the `ESP32-S2-MINI`, wasn't hand assemble-able; so it's been replaced with an `ESP32-S2-SOLO`. 
 * Various small upgrades, including removal of non-necessary RC components, a mini UART header, and additional 5V power lines right next to the 2.1mm jack for strips with additional power wires. 
 * The footprint and supporting components for a MEMS Microphone (`SPH0641LM4H-1`) added in case live sound reactivity is desired later on. 
 ![v2.1 PCB Render Front](files/PCB_v2.1_render_F_RayT.png)
