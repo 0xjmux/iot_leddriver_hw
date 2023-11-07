@@ -33,9 +33,9 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * BOM consolidation, some notes added to schematic, documentation improvements. 
 
 <p align="center">
-<img alt="v2.2 PCB Render Front" src="files/PCB_v2.2_render_F_RayT.png" width="400" />
-<img alt="v2.2 PCB Render Back" src="files/PCB_v2.2_render_B_RayT.png" width="400" />
-<img alt="v2.2 PCB Layout" src="files/PCB_v2.2_layout.png" width="400" />
+<img alt="v2.2 PCB Render Front" src="files/PCB_v2.2_render_F_RayT.png" width="500" />
+<img alt="v2.2 PCB Render Back" src="files/PCB_v2.2_render_B_RayT.png" width="500" />
+<img alt="v2.2 PCB Layout" src="files/PCB_v2.2_layout.png" width="500" />
 </p>
 
 
@@ -43,17 +43,23 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 * MCU originally selected for V2, the `ESP32-S2-MINI`, wasn't hand assemble-able; so it's been replaced with an `ESP32-S2-SOLO`. 
 * Various small upgrades, including removal of non-necessary RC components, a mini UART header, and additional 5V power lines right next to the 2.1mm jack for strips with additional power wires. 
 * The footprint and supporting components for a MEMS Microphone (`SPH0641LM4H-1`) added in case live sound reactivity is desired later on. 
-![v2.1 PCB Render Front](files/PCB_v2.1_render_F_RayT.png)
-![v2 PCB Render Back](files/PCB_v2.1_render_B_RayT.png)
-![v2 PCB Layout](files/PCB_v2.1_layout.png)
+
+<p align="center">
+<img alt="v2.1 PCB Render Front" src="files/PCB_v2.1_render_F_RayT.png" width="500" />
+<img alt="v2.1 PCB Render Back" src="files/PCB_v2.1_render_B_RayT.png" width="500" />
+<img alt="v2.1 PCB Layout" src="files/PCB_v2.1_layout.png" width="500" />
+</p>
 
 
 ### V2.0 - Complete redesign, now ESP32 Based
 * Board upgraded to the `ESP32-S2-MINI-2-N4` for better compute capability, completely redesigned solely around the WS2812B.
 * Most of the features listed above were introduced in this version.
-![v2 PCB Render Front](files/PCB_v2.0_render_F.png)
-![v2 PCB Render Back](files/PCB_v2.0_render_B.png)
-![v2 PCB Layout](files/PCB_v2.0_layout.png)
+
+<p align="center">
+<img alt="v2.0 PCB Render Front" src="files/PCB_v2.0_render_F.png" width="500" />
+<img alt="v2.0 PCB Render Back" src="files/PCB_v2.0_render_B.png" width="500" />
+<img alt="v2.0 PCB Layout" src="files/PCB_v2.0_layout.png" width="500" />
+</p>
 
 ---
 ### V1.0 Prototype
