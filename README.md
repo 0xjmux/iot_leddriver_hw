@@ -39,7 +39,7 @@ ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync 
 </p>
 
 
-### V2.1 - Board updates
+### V2.1 - Hand Assembleable
 * MCU originally selected for V2, the `ESP32-S2-MINI`, wasn't hand assemble-able; so it's been replaced with an `ESP32-S2-SOLO`. 
 * Various small upgrades, including removal of non-necessary RC components, a mini UART header, and additional 5V power lines right next to the 2.1mm jack for strips with additional power wires. 
 * The footprint and supporting components for a MEMS Microphone (`SPH0641LM4H-1`) added in case live sound reactivity is desired later on. 
