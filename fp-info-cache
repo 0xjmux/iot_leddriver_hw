@@ -1,4 +1,4 @@
-22980504055389164
+22985628684587236
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95087,6 +95087,27 @@ SENSOR-TH_AHT21B footprint
 0
 8
 4
+jmux-footprints
+SOIC_clipProgESP8266
+SOIC Bite Programming footprint: See https://github.com/SimonMerrett/SOICbite
+
+0
+8
+8
+jmux-footprints
+SOIC_clipProgSmall
+SOIC Bite Programming footprint: See https://github.com/SimonMerrett/SOICbite
+
+0
+8
+8
+jmux-footprints
+TC-2050-IDC-SOCKET
+
+
+0
+10
+10
 jmux-footprints
 USB-C-SMD_G-SWITCH_GT-USB-7010ASV
 USB-C-SMD_G-SWITCH_GT-USB-7010ASV footprint
