@@ -24,9 +24,9 @@ Highly capable and compact ESP32-based WS2812B LED Strip Driver.
 * Includes I2C breakout for optional addition of SSD1306 OLED.
 * MEMS Microphone can optionally be added for live sound reactivity. 
 
-##### Update 1/2024 - Now with a 3D Printable case!
+#### Update 1/2024 - Now with a 3D Printable case!
 * Check out [case/](./case/) for the 3D printable case I designed! This is the result of my first design using CAD in a very long time, and while it has some things I would change now I think it's still probably better published than not. 
-* A PDF drawing of the case with dimensions can be found [here](case/iot_leddriver_drawing_v0.5.pdf)
+* A PDF drawing of the case with dimensions can be found [here](case/iot_leddriver_drawing_v0.5.pdf).
 
 <p align="center">
 <img alt="IRL picture of installation. Don't judge, it's in a really hard to reach place." src="files/iotled_case_ceiling.JPG" width="300" />
