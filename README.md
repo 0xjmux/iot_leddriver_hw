@@ -29,8 +29,8 @@ Highly capable and compact ESP32-based WS2812B LED Strip Driver.
 * A PDF drawing of the case with dimensions can be found [here](case/iot_leddriver_drawing_v0.5.pdf)
 
 <p align="center">
-<img alt="IRL picture of installation. Don't judge, it's in a really hard to reach place." src="files/iotled_case_ceiling.JPG" width="600" />
-<img alt="" src="case/case_v0.5_explodedview" width="600" />
+<img alt="IRL picture of installation. Don't judge, it's in a really hard to reach place." src="files/iotled_case_ceiling.JPG" width="300" />
+<img alt="" src="case/case_v0.5_explodedview.png" width="300" />
 </p>
 
 ## Notes and Usage
