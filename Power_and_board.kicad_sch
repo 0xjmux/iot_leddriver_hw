@@ -795,9 +795,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "H1") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "H1") (unit 1)
-        )
       )
     )
   )
@@ -821,9 +818,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "FID3") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "FID2") (unit 1)
         )
       )
     )
@@ -850,9 +844,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "#PWR012") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "#PWR012") (unit 1)
-        )
       )
     )
   )
@@ -876,9 +867,6 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "#PWR05") (unit 1)
         )
       )
@@ -916,9 +904,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "C5") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "C11") (unit 1)
-        )
       )
     )
   )
@@ -954,9 +939,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "C3") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "C9") (unit 1)
-        )
       )
     )
   )
@@ -985,9 +967,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "TP1") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "TP6") (unit 1)
-        )
       )
     )
   )
@@ -1011,9 +990,6 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "#PWR013") (unit 1)
         )
       )
@@ -1040,9 +1016,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "#PWR02") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1076,9 +1049,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "D2") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "D5") (unit 1)
-        )
       )
     )
   )
@@ -1103,9 +1073,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "#PWR036") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1138,9 +1105,6 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "U1") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "U1") (unit 1)
         )
       )
@@ -1177,9 +1141,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "C2") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "C8") (unit 1)
         )
       )
     )
@@ -1239,9 +1200,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "D1") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "D6") (unit 1)
-        )
       )
     )
   )
@@ -1270,9 +1228,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "H2") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "H2") (unit 1)
-        )
       )
     )
   )
@@ -1297,9 +1252,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "FID2") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "FID1") (unit 1)
-        )
       )
     )
   )
@@ -1323,9 +1275,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "FID1") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "FID3") (unit 1)
         )
       )
     )
@@ -1355,9 +1304,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "TP3") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "TP8") (unit 1)
-        )
       )
     )
   )
@@ -1384,9 +1330,6 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "H4") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "H4") (unit 1)
         )
       )
@@ -1424,9 +1367,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "C6") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "C1") (unit 1)
-        )
       )
     )
   )
@@ -1450,9 +1390,6 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "#PWR014") (unit 1)
         )
       )
@@ -1481,9 +1418,6 @@
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "H3") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "H3") (unit 1)
         )
       )
@@ -1517,9 +1451,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "D3") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "D8") (unit 1)
         )
       )
     )
@@ -1556,9 +1487,6 @@
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "C4") (unit 1)
         )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "C10") (unit 1)
-        )
       )
     )
   )
@@ -1586,9 +1514,6 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "TP2") (unit 1)
-        )
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
-          (reference "TP7") (unit 1)
         )
       )
     )

@@ -2298,6 +2298,10 @@
     (stroke (width 0) (type default))
     (uuid 7d308db7-30c8-48e9-899c-9587c7329684)
   )
+  (wire (pts (xy 232.41 125.73) (xy 237.49 125.73))
+    (stroke (width 0) (type default))
+    (uuid 7e3d18a5-5d21-4d1b-b2fd-b865cea6d21a)
+  )
   (wire (pts (xy 91.44 85.09) (xy 80.645 85.09))
     (stroke (width 0) (type default))
     (uuid 7e72b27f-0e47-4410-bbbc-2560f56895ce)
@@ -2339,7 +2343,7 @@
     (stroke (width 0) (type default))
     (uuid 8c1e72b1-14f3-4d78-a116-0fed620ae14d)
   )
-  (wire (pts (xy 218.44 125.73) (xy 237.49 125.73))
+  (wire (pts (xy 218.44 125.73) (xy 224.79 125.73))
     (stroke (width 0) (type default))
     (uuid 8ebfcaf0-6236-4271-a0eb-9ef99350855e)
   )
@@ -2821,7 +2825,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 514207b7-86d8-43b2-b3e8-b880d3cc471a)
   )
-  (label "D_{IN}" (at 227.33 125.73 0) (fields_autoplaced)
+  (label "D_{IN}" (at 233.68 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5530c174-9a6c-4887-9912-ddfaae2d2fb7)
   )
@@ -3129,7 +3133,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 73.66 134.62 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 288888d5-187d-4fae-8e42-8ae9cac5b134)
-    (property "Reference" "TP1" (at 72.39 128.905 0)
+    (property "Reference" "TP4" (at 72.39 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D+" (at 72.39 127 0)
@@ -3147,9 +3151,6 @@
     (pin "1" (uuid 10927b8f-2650-4ff8-9fe0-f9558ef99aac))
     (instances
       (project "iot_led_strip_pcb"
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "TP1") (unit 1)
-        )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "TP4") (unit 1)
         )
@@ -3553,6 +3554,41 @@
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "J5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 228.6 125.73 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 66655617-6b13-4271-a24b-c8a25fc60c50)
+    (property "Reference" "R7" (at 228.6 123.19 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "27R" (at 229.235 128.27 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 228.854 124.714 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 228.6 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F270JT5E_C17594.html" (at 228.6 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C17594" (at 228.6 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "27Ω 0805 125mW Chip Resistor" (at 228.6 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1adf5480-bfa7-481a-a81d-e3356dac2819))
+    (pin "2" (uuid b24dda87-03d8-40e9-8604-bd0ec0b4ced6))
+    (instances
+      (project "iot_led_strip_pcb"
+        (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4244,7 +4280,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 27.94 172.085 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid b1791d30-d221-40ca-9221-0278998ac552)
-    (property "Reference" "JP2" (at 26.67 174.625 0)
+    (property "Reference" "JP7" (at 26.67 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "JTAG-VT_{ref}" (at 27.94 169.545 0)
@@ -4260,9 +4296,6 @@
     (pin "2" (uuid 731f3cf6-3bd3-42cd-8b3b-0b6f10326321))
     (instances
       (project "iot_led_strip_pcb"
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "JP2") (unit 1)
-        )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "JP7") (unit 1)
         )
@@ -4994,7 +5027,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 73.66 137.16 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid e7678078-380b-4d6f-bda2-5329240017eb)
-    (property "Reference" "TP1" (at 74.93 142.875 0)
+    (property "Reference" "TP5" (at 74.93 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D-" (at 74.93 144.78 0)
@@ -5012,9 +5045,6 @@
     (pin "1" (uuid f7372f32-c595-4929-8227-98a52e68fa1b))
     (instances
       (project "iot_led_strip_pcb"
-        (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
-          (reference "TP1") (unit 1)
-        )
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc"
           (reference "TP5") (unit 1)
         )

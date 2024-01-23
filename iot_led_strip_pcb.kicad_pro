@@ -482,11 +482,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "iot_led_strip_pcb.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/iot_led_strip_pcb_v2.2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
