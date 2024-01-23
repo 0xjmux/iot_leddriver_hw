@@ -18,11 +18,20 @@ Highly capable and compact ESP32-based WS2812B LED Strip Driver.
 * Board designed to drive a 5m 60LED/m WS2812B strip with safety marign (see [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md))
 * Entirely LCSC BOM, designed for both hand and machine assembly. Able to be assembled by JLCPCB with low-cost components (almost all basic component BOM).
 
-##### Optional Features and
+##### Optional Features and Mounting
 * Designed to also be capable of driving 12V strips like the WS2811; only modification needed is changing the 5V overvoltage protection diodes (`D1`&`D2`, PN `SMF5V0A`) to 12V diodes (like `SMF12A`s)
 * M2 mounting holes, various test pads, and an emergency UART header on the bottom. 
 * Includes I2C breakout for optional addition of SSD1306 OLED.
 * MEMS Microphone can optionally be added for live sound reactivity. 
+
+##### Update 1/2024 - Now with a 3D Printable case!
+* Check out [case/](./case/) for the 3D printable case I designed! This is the result of my first design using CAD in a very long time, and while it has some things I would change now I think it's still probably better published than not. 
+* A PDF drawing of the case with dimensions can be found [here](case/iot_leddriver_drawing_v0.5.pdf)
+
+<p align="center">
+<img alt="IRL picture of installation. Don't judge, it's in a really hard to reach place." src="files/iotled_case_ceiling.JPG" width="600" />
+<img alt="" src="case/case_v0.5_explodedview" width="600" />
+</p>
 
 ## Notes and Usage
 * Schematic, BOM, Gerbers, and all other files needed for production and assembly can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
