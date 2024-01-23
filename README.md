@@ -1,29 +1,38 @@
 # Spotify Neopixel Visualizer Hardware
-ESP32-based WS2812B LED Strip Driver, with plans to use the Spotify API to sync and pulse to music. 
+Highly capable and compact ESP32-based WS2812B LED Strip Driver.   
 
 <p align="center">
   <img src="./files/iot_leddriver_v2.1_ledring_stable.gif" />
 </p>
   
 
-* Board firmware (in progress, not yet published) will be eventually available at [iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw).
-* Optionally, compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
+<!-- * Board firmware (in progress, not yet published) will be eventually available at [iot_leddriver_sw](https://github.com/0xjmux/iot_leddriver_sw). -->
+* Origianlly planned to design my own firmware to integrate with the Spotify API Directly; but eventually switched to the much more featured combination of WLED + LEDFx. 
+* Compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
 * (See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for full pinout and other information).
  
 ### Features
 * ESP32 based for low-cost IoT Capability, can use either `ESP32-S2-SOLO` (single core, cheaper) or `ESP32-S3-WROOM` (dual core). 
 * Programmable over USB C, with Tag-Connect JTAG header for full debug capability. 
 * Two ways to attach LED strip, either via pin header or with a strain relief. 
-* Board designed to steadily handle driving a 5m 60led/m WS2812B strip, with safety marign. 
+* Board designed to drive a 5m 60LED/m WS2812B strip with safety marign (see [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md))
+* Entirely LCSC BOM, designed for both hand and machine assembly. Able to be assembled by JLCPCB with low-cost components (almost all basic component BOM).
+
+##### Optional Features and
+* Designed to also be capable of driving 12V strips like the WS2811; only modification needed is changing the 5V overvoltage protection diodes (`D1`&`D2`, PN `SMF5V0A`) to 12V diodes (like `SMF12A`s)
 * M2 mounting holes, various test pads, and an emergency UART header on the bottom. 
 * Includes I2C breakout for optional addition of SSD1306 OLED.
 * MEMS Microphone can optionally be added for live sound reactivity. 
-* Entirely LCSC BOM, designed for both hand and machine assembly. Able to be assembled by JLCPCB with low-cost components (almost all basic component BOM).
 
 ## Notes and Usage
 * Schematic, BOM, Gerbers, and all other files needed for production and assembly can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
-* This includes an interactive HTML BOM, which makes hand assembly much easier. 
-* See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for more details. 
+  * This includes an interactive HTML BOM, which makes hand assembly much easier. 
+* View current layout and schematic live on [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F0xjmux%2Fiot_leddriver_hw)
+
+<p align="center">
+  <img alt="v2.1 showing LED strip standard JST connector connected to 5M WS2812B strip" src="./files/iot_leddriver_JST_5m_strip.jpg"  width="600"/>
+<br>v2.1 showing LED strip standard JST connector connected to 5M WS2812B strip
+</p>
 
 ## Versions
 ### V2.2 - QoL and Improvements for Production
