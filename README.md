@@ -1,5 +1,5 @@
 # Spotify Neopixel Visualizer Hardware
-Highly capable and compact ESP32-based WS2812B LED Strip Driver.   
+Simple and compact ESP32-based WS2812B LED Strip Driver.   
 
 <p align="center">
   <img src="./files/iot_leddriver_v2.1_ledring_stable.gif" />
@@ -10,6 +10,9 @@ Highly capable and compact ESP32-based WS2812B LED Strip Driver.
 * Origianlly planned to design my own firmware to integrate with the Spotify API Directly; but eventually switched to the much more featured combination of WLED + LEDFx. 
 * Compatible with the popular [WLED](https://github.com/Aircoookie/WLED) firmware: just change the LED data pin to `GPIO21`. 
 * (See [DEVELOPMENT-NOTES.md](DEVELOPMENT-NOTES.md) for full pinout and other information).
+
+> [!WARNING]
+> This was my first real PCB design, and I've improved a lot since I completed it. Take it (especially <=v2.2) with a grain of salt. 
  
 ### Features
 * ESP32 based for low-cost IoT Capability, can use either `ESP32-S2-SOLO` (single core, cheaper) or `ESP32-S3-WROOM` (dual core). 
@@ -36,7 +39,7 @@ Highly capable and compact ESP32-based WS2812B LED Strip Driver.
 ## Notes and Usage
 * Schematic, BOM, Gerbers, and all other files needed for production and assembly can be found attached to the latest [release!](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
   * This includes an interactive HTML BOM, which makes hand assembly much easier. 
-* View current layout and schematic live on [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F0xjmux%2Fiot_leddriver_hw)
+* View current layout and schematic live on [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F0xjmux%2Fiot_leddriver_hw%2Ftree%2Fmain%2FPCB)
 
 <p align="center">
   <img alt="v2.1 showing LED strip standard JST connector connected to 5M WS2812B strip" src="./files/iot_leddriver_JST_5m_strip.jpg"  width="600"/>
