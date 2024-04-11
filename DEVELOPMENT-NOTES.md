@@ -1,9 +1,15 @@
 ## Important Design Information
 * All information about the board needed for development can be found attached tothe [latest release](https://github.com/0xjmux/iot_leddriver_hw/releases/latest)
+#### Ideas/todo
+* tindie listing with PCB and ESP-PROG adapter as like "wled developer kit?"
+* 
+
+
+
+## V2.2
 * Current microcontroller is ESP32-S2-SOLO ([datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf))
 * We're also attempting to use the [ESP32-S3-WROOM-2](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf) microcontroller during development, because of its dual-core capability. 
 *  A MEMS Microphone, the `SPH0641LU4H-1`, can be optionally installed in case we later want to add live sound reactivity ([datasheet](https://www.knowles.com/docs/default-source/default-document-library/sph0641lm4h-1-datasheet-rev-f.pdf?Status=Master&sfvrsn=217e70b1_0) ).
-
 #### Pinout
 
 | GPIO PIN | Connected to   |
@@ -15,8 +21,8 @@
 | `GPIO5`  | MEMS Mic Clock |
 | `GPIO6`  | MEMS Mic Data  |
 
-##### V2.2+ breaking change:
-* From v2.2 onward, SCL has been moved to `GPIO37`. This was because on the WROOM, `GPIO35` is not present (and is an NC pin). 
+##### V2.2 breaking change:
+* From v2.2, SCL has been moved to `GPIO37`. This was because on the WROOM, `GPIO35` is not present (and is an NC pin). 
 
 #### Hardware Limitations
 * Trace width and vias for power delivery from DC jack to LED Strip Power lines calculated to handle 12A with ΔT rise of <10°C. 

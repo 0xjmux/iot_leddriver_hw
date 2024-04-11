@@ -659,7 +659,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 0 1.68 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -696,7 +696,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Ceramic Cap SMD"
+		(property "Description" "16V 10uF 0805 Ceramic Capacitor SMD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -708,7 +708,7 @@
 				)
 			)
 		)
-		(property "Vendor" "https://jlcpcb.com/partdetail/Yageo-CC0805KRX7R9BB104/C49678"
+		(property "Vendor" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -721,7 +721,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C15850"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -735,7 +735,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/cfe13250-7fa5-4f24-964e-9463793dd38d/c2620719-f330-431f-aa26-216a4b0ae8f1")
+		(path "/cfe13250-7fa5-4f24-964e-9463793dd38d/5005ad48-7753-4abf-8250-fbebea6cabae")
 		(sheetname "Power_and_board")
 		(sheetfile "Power_and_board.kicad_sch")
 		(attr smd)
@@ -840,7 +840,7 @@
 			(uuid "15075b00-e715-4d29-9fa4-f36d7a59ec15")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "ca4f222f-ec0c-4bf9-8f65-b4735dd49048")
 			(effects
@@ -5625,7 +5625,7 @@
 			(uuid "ce7b7571-f067-4cbb-b849-7f125819901c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "36b085e7-1def-4eed-ac10-40b46ce924e3")
 			(effects
@@ -6683,7 +6683,7 @@
 			(uuid "572cc707-ee76-4274-9b61-b9e06da4c46c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "a262f201-e469-4ccc-99cf-662cb52d9b52")
 			(effects
@@ -9107,7 +9107,7 @@
 			(uuid "6a9dcbaa-f767-4b79-92f3-38d4fa6303ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "3e7cf6f4-789c-4f08-9213-61ec7d12ec4c")
 			(effects
@@ -10278,7 +10278,7 @@
 			)
 		)
 		(property "Description" "36V 500mA 1A trip https://www.lcsc.com/product-detail/Resettable-Fuses_LUTE-1206L050-36NR_C20616702.html"
-			(at 67 98.72 -90)
+			(at 67 98.72 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29fdb986-ccae-4873-8499-0a691bd71900")
@@ -10289,7 +10289,7 @@
 			)
 		)
 		(property "LCSC" "C20616702"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79d2c725-90d9-4524-8e0c-914aee40c8b0")
@@ -10406,7 +10406,7 @@
 			(uuid "08d40f39-d5a2-4852-a521-bbb064acf4ae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.9125 0 0)
+			(at 2.9125 0 360)
 			(layer "F.Fab")
 			(uuid "844dec91-e3cc-45d1-b1ad-254dd97c2bb8")
 			(effects
@@ -12443,7 +12443,7 @@
 			)
 		)
 		(property "Value" "TAR5S50"
-			(at 0 4.95 -90)
+			(at 0 4.95 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8c7ae51b-3ea8-4fe3-9032-12e3b0c3fcf9")
@@ -18998,7 +18998,7 @@
 			(uuid "6f510918-3ee0-4029-83cf-8144d07eccbe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "7a9eb533-7151-4ce9-b72a-cc61e9f309fd")
 			(effects
@@ -21445,6 +21445,25 @@
 		(end 141.6 71)
 		(layer "B.SilkS")
 		(uuid "59d5de62-67bb-4d2a-8b6c-953ee7095bca")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.11)
+			)
+			(justify left top mirror)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "LED_{1} = GPIO18\nLED_{2} = GPIO21\nSTAT LED = GPIO2\nMIC CLK = GPIO5\nMIC DATA = GPIO6"
+		(locked yes)
+		(start 129.2 71.6)
+		(end 141.6 78)
+		(layer "B.SilkS")
+		(uuid "8e332134-d5b8-409c-b215-29bb98ffbd48")
 		(effects
 			(font
 				(size 0.7 0.7)
